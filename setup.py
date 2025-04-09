@@ -29,11 +29,5 @@ setuptools.setup(
         'numpy',
         'scipy'
     ],
-    python_requires='>=3.7, <4',
-
-    setup_requires=[
-        'wheel',
-        'setuptools>=42',
-        'setuptools_scm>=6.2'
-    ],
+    python_requires='>=3.7, <4'
 )
